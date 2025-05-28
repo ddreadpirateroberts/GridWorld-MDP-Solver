@@ -3,12 +3,6 @@ A visual implementation of Markov Decision Process (MDP) algorithms using Pygame
 
 ## Features
 
-### Core Functionality
-- **Interactive GridWorld Environment**: Customizable grid-based world with walls, pits, diamonds, and walkable tiles
-- **MDP Algorithms**: Complete implementations of Value Iteration and Policy Iteration
-- **Visual Learning**: Real-time visualization of algorithm convergence and policy learning
-- **Stochastic Actions**: Configurable noise model for realistic action uncertainty
-
 ### Visualization Modes
 - **Utility + Direction Display**: Shows state values and optimal policy directions
 - **Q-Value Display**: Visualizes action-value functions with color-coded triangular segments
@@ -18,25 +12,6 @@ A visual implementation of Markov Decision Process (MDP) algorithms using Pygame
 - **Random World Generation**: Procedurally generated gridworlds with customizable goal and wall ratios
 - **Connectivity Validation**: Ensures all terminal states remain reachable
 - **Configurable Parameters**: Adjustable discount factor, noise level, and living rewards
-
-## Getting Started
-
-### Prerequisites
-```bash
-pip install pygame
-```
-
-### Quick Start
-```bash
-# Run basic gridworld
-python gridworld.py
-
-# Run MDP solver interface
-python optimal_policy.py
-
-# Run performance tests
-python test.py
-```
 
 ### Controls
 - **V + 1**: Run Value Iteration (Utility/Direction view)
