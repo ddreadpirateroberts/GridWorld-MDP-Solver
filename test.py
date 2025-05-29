@@ -8,7 +8,7 @@ import time
 
 class Test: 
     def __init__(self):
-        self.model = Gridworld(70, 70, random=True, wall_ratio=25)
+        self.model = Gridworld(25, 25, random=True, wall_ratio=25)
         print("GridWorld has been constructed")
         
     def extract_policy(self): 
