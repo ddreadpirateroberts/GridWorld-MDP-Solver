@@ -1,8 +1,9 @@
-import pygame 
+import settings; settings.TILESIZE = 30 
 from gridworld import Gridworld, DisplayMode
-from optimal_policy import ValueIteration, PolicyIteration
-import time 
+from optimalPolicy import ValueIteration, PolicyIteration
 from random import randint
+import pygame 
+import time 
 
 
 class Test: 
