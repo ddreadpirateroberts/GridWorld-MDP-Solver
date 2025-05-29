@@ -32,6 +32,6 @@ A visual implementation of Markov Decision Process (MDP) algorithms using Pygame
 ## Code Structure
 
 - `gridworld.py`: Core environment and visualization
-- `optimal_policy.py`: MDP solver implementations
+- `optimalPolicy.py`: MDP solver implementations
 - `settings.py`: Configuration constants
 - `test.py`: Performance benchmarking and robot simulation
