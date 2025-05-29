@@ -1,5 +1,5 @@
 import pygame
-TILESIZE = 40
+TILESIZE = 120
 TITLE = "Gridworld Display"
 BLACK = pygame.Color(0, 0, 0)
 WHITE = pygame.Color(255, 255, 255)
